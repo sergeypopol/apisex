@@ -11,9 +11,10 @@ The following APIac plugs are available:
   - [APIacAuthBasic](https://github.com/tanguilp/apiac_auth_basic): implementatoin of the
   Basic HTTP authentication scheme ([RFC7617](https://tools.ietf.org/html/rfc7617))
   - [APIacAuthBearer](https://github.com/tanguilp/apiac_auth_bearer): implementation of the
-  Bearer HTTP authentication scheme ([RFC6750](https://tools.ietf.org/html/rfc6750)) and the
-  OAuth 2.0 Token Introspection ([RFC7662](https://tools.ietf.org/html/rfc7662)) token
-  verification method
+  Bearer HTTP authentication scheme ([RFC6750](https://tools.ietf.org/html/rfc6750)) along with the
+  OAuth 2.0 Token Introspection ([RFC7662](https://tools.ietf.org/html/rfc7662)) and JSON Web Token
+  (JWT) Profile for OAuth 2.0 Access Tokens ([RFC9068](https://www.rfc-editor.org/rfc/rfc9068.html))
+  verification methods
   - [APIacAuthMTLS](https://github.com/tanguilp/apiac_auth_mtls): implementation of the
   OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens
   [RFC8705](https://tools.ietf.org/html/rfc8705)
